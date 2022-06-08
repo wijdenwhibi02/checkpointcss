@@ -1,0 +1,190 @@
+header{
+
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    display:flex;
+    justify-content: space-around;
+    
+
+}
+
+
+
+ul li{list-style: none;}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+ul a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+
+}
+.dropdownlist{
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropdownlist{
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  
+}
+.lead__logo{
+    width: 100px;
+    margin-top: 200px;
+    display: flex;
+    margin-top: 50%;
+
+}
+.offer{
+
+    display: flex;
+    margin: auto auto auto auto;
+}
+.header1{
+    text-align: center;
+    font-size: 20px;
+    color: 
+    #00b39b;
+}
+.services-container{
+    width: 100%;
+    display: flex;
+   
+    
+    justify-content: space-around;
+  /*   margin: 50px auto auto auto; */
+ 
+    }
+    .x{
+        /* 
+        height: 300px; */
+        text-align: center;
+        align-items: center;
+        border-radius: 10px;
+        padding-top: 20px;
+        color: white;
+        width: 25%;
+
+    }
+    .x.hover{
+        cursor: pointer;
+    }
+    .offices-description h1 {
+        color: rgb(0,197,155);
+        font-family: 'Charmonman', cursive;
+    }
+    .offices-description p {
+        text-align: center;
+        color: black;
+        opacity: .7;
+        }
+    .offices-colomn-1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .offices-colomn-2 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+    .offices-colomn-1 h1 {
+        font-family: 'Charmonman', cursive;
+    }
+    .offices-box h2 {
+        font-family: 'Charmonman', cursive;
+    }
+    .opening-information {
+        text-align: right;
+        margin-top: -17%;
+    }
+    .opening-information input {
+        background-color: rgb(61,131,223);
+        color:white;
+        height: 31px;
+        border-radius: 25px;
+    }
+   
+    .services-container-for-patients{
+
+
+        background:#00ccb1;
+        
+
+    }
+    .services-container-for-doctors{
+       
+        background-color:#00b39b;
+        padding:20px;
+
+    }
+
+   .service-clinic{
+        background-color:#747474;
+
+        
+    } 
+    .h1{
+    
+        color: #00b39b;
+        }
+
+        .introduction-box {
+            width: 30%;
+            text-align: center;
+        
+            }
+            .introduction-logo img {
+                height: 231px;
+                width: 100%;
+                margin-top: 5%;
+            }
+            .stats {
+                text-align: center;
+                width: 60%;
+                margin: 0 4% 0 19%;
+            }
+            .stats h1 {
+                color: rgb(0,197,155);
+                font-family: 'Charmonman', cursive;
+            }
+    
+            .stats-box {
+                height: 190px;
+                background-color: white;
+                border-radius: 7%;
+                width: 45%;
+                margin-right: 5%;
+            }
+            .stats-box-colomn-2 {
+                display: flex;
+                justify-content: center;
+                
+            }
+            .stats-box-colomn-1 {
+                display: flex;
+                justify-content: center;
+            }
+
+            .offices-description {
+                text-align: center;
+            }
+            .offices-description h1 {
+                color: rgb(0,197,155);
+                font-family: 'Charmonman', cursive;
+            }
+            .offices-description p {
+                text-align: center;
+                color: black;
+                opacity: .7;
+            }
+
+    
+        
+  
